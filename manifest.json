@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "metadata": {
+    "appmode": "shiny",
+    "entrypoint": "app.R",
+    "primary_rmd": null,
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  },
+  "python": null,
+  "files": {
+    "app.R": {
+      "checksum": "0"
+    }
+  },
+  "packages": null,
+  "users": null
+}
