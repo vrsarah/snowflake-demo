@@ -1,0 +1,15 @@
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# rsconnect deployment files
+rsconnect/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local testing files
+*.log

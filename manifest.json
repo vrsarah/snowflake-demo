@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "metadata": {
+    "appmode": "shiny",
+    "entrypoint": "app.R"
+  },
+  "packages": {
+    "R": [
+      {
+        "Package": "shiny",
+        "Repository": "CRAN"
+      },
+      {
+        "Package": "DBI",
+        "Repository": "CRAN"
+      },
+      {
+        "Package": "odbc",
+        "Repository": "CRAN"
+      },
+      {
+        "Package": "bslib",
+        "Repository": "CRAN"
+      }
+    ]
+  },
+  "files": {
+    "app.R": {
+      "checksum": ""
+    },
+    "README.md": {
+      "checksum": ""
+    }
+  },
+  "users": null
+}
