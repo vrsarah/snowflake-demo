@@ -13,7 +13,7 @@ SNOWFLAKE_DATABASE <- "TEST_DB"
 SNOWFLAKE_WAREHOUSE <- "COMPUTE_WH"
 SNOWFLAKE_SCHEMA <- "PUBLIC"
 
-# Function to get OAuth access token from Connect
+# Function to get OAuth access token from Connect using connectapi
 get_oauth_token <- function(session) {
   # Only works when running on Connect
   if (Sys.getenv("RSTUDIO_PRODUCT") != "CONNECT") {
@@ -27,14 +27,14 @@ get_oauth_token <- function(session) {
     stop("No user session token found. This app requires OAuth authentication.")
   }
 
-  # Create connectapi client (no parameters needed when running on Connect)
-  client <- connect()
+  # Create Connect client
+  client <- connectapi::connect()
 
-  # Use connectapi's helper function to get OAuth credentials
-  # This will trigger Connect's OAuth modal if user hasn't authenticated
-  credentials <- get_oauth_credentials(client, user_session_token)
+  # Get OAuth credentials using connectapi
+  # Note: audience parameter can be added if multiple integrations are configured
+  credentials <- connectapi::get_oauth_credentials(client, user_session_token)
 
-  # Return just the access token
+  # Return the access token
   return(credentials$access_token)
 }
 
@@ -127,10 +127,6 @@ ui <- page_sidebar(
                  class = "btn-primary w-100",
                  icon = icon("plug")),
     hr(),
-    p("This app uses Posit Connect's OAuth Integration to authenticate with Snowflake.",
-      class = "text-muted small"),
-    p("If you haven't logged in yet, Connect will show a modal prompting you to authenticate.",
-      class = "text-muted small")
   ),
 
   # Main content
