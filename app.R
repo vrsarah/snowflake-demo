@@ -5,8 +5,7 @@ library(shiny)
 library(DBI)
 library(odbc)
 library(bslib)
-library(httr)
-library(jsonlite)
+library(connectapi)
 
 # Snowflake connection parameters
 SNOWFLAKE_ACCOUNT <- "BMB83620"
@@ -18,90 +17,50 @@ SNOWFLAKE_SCHEMA <- "PUBLIC"
 get_oauth_token <- function(session) {
   # Only works when running on Connect
   if (Sys.getenv("RSTUDIO_PRODUCT") != "CONNECT") {
-    return(list(
-      success = FALSE,
-      error = "This app must run on Posit Connect to use OAuth integrations"
-    ))
+    stop("This app must run on Posit Connect to use OAuth integrations")
   }
 
-  tryCatch({
-    # Get the user session token from Shiny session headers
-    user_session_token <- session$request$HTTP_POSIT_CONNECT_USER_SESSION_TOKEN
+  # Get the user session token from Shiny session headers
+  user_session_token <- session$request$HTTP_POSIT_CONNECT_USER_SESSION_TOKEN
 
-    if (is.null(user_session_token) || user_session_token == "") {
-      return(list(
-        success = FALSE,
-        error = "No user session token found. This app requires OAuth authentication."
-      ))
-    }
+  if (is.null(user_session_token) || user_session_token == "") {
+    stop("No user session token found. This app requires OAuth authentication.")
+  }
 
-    # Get Connect server address
-    connect_server <- Sys.getenv("CONNECT_SERVER")
-    if (connect_server == "") {
-      # Fallback: try to construct from request
-      connect_server <- paste0(
-        session$request$HTTP_X_FORWARDED_PROTO %||% "https",
-        "://",
-        session$request$HTTP_HOST
-      )
-    }
-
-    # Call Connect's OAuth credentials exchange endpoint
-    # This will return an access token if user has authorized
-    # OR return error that triggers Connect's OAuthLoginModal
-    response <- POST(
-      url = paste0(connect_server, "/__api__/v1/oauth/integrations/credentials"),
-      body = list(
-        grant_type = "urn:ietf:params:oauth:grant-type:token-exchange",
-        subject_token = user_session_token,
-        subject_token_type = "urn:posit:connect:user-session-token",
-        requested_token_type = "urn:ietf:params:oauth:token-type:access_token"
-      ),
-      encode = "json",
-      add_headers(
-        "Content-Type" = "application/json"
-      )
+  # Get Connect server address
+  connect_server <- Sys.getenv("CONNECT_SERVER")
+  if (connect_server == "") {
+    # Fallback: try to construct from request
+    connect_server <- paste0(
+      session$request$HTTP_X_FORWARDED_PROTO %||% "https",
+      "://",
+      session$request$HTTP_HOST
     )
+  }
 
-    if (status_code(response) != 200) {
-      content <- content(response, as = "parsed")
-      return(list(
-        success = FALSE,
-        error = paste0("OAuth error: ", content$message %||% "Unknown error"),
-        status_code = status_code(response)
-      ))
-    }
+  # Create connectapi client
+  client <- connect(
+    server = connect_server,
+    api_key = NULL  # Not needed for viewer auth
+  )
 
-    token_data <- content(response, as = "parsed")
+  # Use connectapi's helper function to get OAuth credentials
+  # This will trigger Connect's OAuth modal if user hasn't authenticated
+  credentials <- get_oauth_credentials(
+    client = client,
+    user_session_token = user_session_token
+  )
 
-    return(list(
-      success = TRUE,
-      access_token = token_data$access_token,
-      token_type = token_data$token_type
-    ))
-
-  }, error = function(e) {
-    return(list(
-      success = FALSE,
-      error = paste("Token fetch error:", e$message)
-    ))
-  })
+  # Return just the access token
+  return(credentials$access_token)
 }
 
 # Function to attempt Snowflake connection with OAuth
 connect_to_snowflake <- function(session) {
-  # Get OAuth token from Connect
-  token_result <- get_oauth_token(session)
-
-  if (!token_result$success) {
-    return(list(
-      success = FALSE,
-      error = token_result$error,
-      needs_auth = TRUE
-    ))
-  }
-
   tryCatch({
+    # Get OAuth token from Connect (will throw error if not authenticated)
+    access_token <- get_oauth_token(session)
+
     # Attempt connection with OAuth token
     con <- dbConnect(
       odbc::snowflake(),
@@ -110,7 +69,7 @@ connect_to_snowflake <- function(session) {
       database = SNOWFLAKE_DATABASE,
       schema = SNOWFLAKE_SCHEMA,
       authenticator = "oauth",
-      token = token_result$access_token
+      token = access_token
     )
 
     # Test the connection with a simple query
@@ -127,25 +86,18 @@ connect_to_snowflake <- function(session) {
   }, error = function(e) {
     return(list(
       success = FALSE,
-      error = paste("Connection error:", e$message),
-      needs_auth = grepl("token|auth", tolower(e$message))
+      error = e$message,
+      needs_auth = grepl("oauth|authentication required", tolower(e$message))
     ))
   })
 }
 
 # Function to query Snowflake tables
 query_snowflake <- function(session, query) {
-  # Get OAuth token from Connect
-  token_result <- get_oauth_token(session)
-
-  if (!token_result$success) {
-    return(list(
-      success = FALSE,
-      error = token_result$error
-    ))
-  }
-
   tryCatch({
+    # Get OAuth token from Connect (will throw error if not authenticated)
+    access_token <- get_oauth_token(session)
+
     con <- dbConnect(
       odbc::snowflake(),
       account = SNOWFLAKE_ACCOUNT,
@@ -153,7 +105,7 @@ query_snowflake <- function(session, query) {
       database = SNOWFLAKE_DATABASE,
       schema = SNOWFLAKE_SCHEMA,
       authenticator = "oauth",
-      token = token_result$access_token
+      token = access_token
     )
 
     result <- dbGetQuery(con, query)
@@ -167,7 +119,7 @@ query_snowflake <- function(session, query) {
   }, error = function(e) {
     return(list(
       success = FALSE,
-      error = paste("Query error:", e$message)
+      error = e$message
     ))
   })
 }
