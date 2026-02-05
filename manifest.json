@@ -12,13 +12,13 @@
   "packages": {
     "DBI": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "DBI",
         "Title": "R Database Interface",
         "Version": "1.2.3",
         "Date": "2024-06-02",
-        "Authors@R": "c(\n    person(\"R Special Interest Group on Databases (R-SIG-DB)\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Kirill\", \"M\u00fcller\", , \"kirill@cynkra.com\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-1416-3412\")),\n    person(\"R Consortium\", role = \"fnd\")\n  )",
+        "Authors@R": "c(\n    person(\"R Special Interest Group on Databases (R-SIG-DB)\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Kirill\", \"Müller\", , \"kirill@cynkra.com\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-1416-3412\")),\n    person(\"R Consortium\", role = \"fnd\")\n  )",
         "Description": "A database interface definition for communication between R\n    and relational database management systems.  All classes in this\n    package are virtual and need to be extended by the various R/DBMS\n    implementations.",
         "License": "LGPL (>= 2.1)",
         "URL": "https://dbi.r-dbi.org, https://github.com/r-dbi/DBI",
@@ -35,15 +35,15 @@
         "Config/testthat/edition": "3",
         "NeedsCompilation": "no",
         "Packaged": "2024-06-02 20:26:05 UTC; kirill",
-        "Author": "R Special Interest Group on Databases (R-SIG-DB) [aut],\n  Hadley Wickham [aut],\n  Kirill M\u00fcller [aut, cre] (<https://orcid.org/0000-0002-1416-3412>),\n  R Consortium [fnd]",
-        "Maintainer": "Kirill M\u00fcller <kirill@cynkra.com>",
+        "Author": "R Special Interest Group on Databases (R-SIG-DB) [aut],\n  Hadley Wickham [aut],\n  Kirill Müller [aut, cre] (<https://orcid.org/0000-0002-1416-3412>),\n  R Consortium [fnd]",
+        "Maintainer": "Kirill Müller <kirill@cynkra.com>",
         "Repository": "RSPM",
         "Date/Publication": "2024-06-02 21:50:02 UTC",
         "Built": "R 4.5.0; ; 2025-04-05 03:01:35 UTC; unix",
         "RemoteType": "standard",
         "RemoteRef": "DBI",
         "RemotePkgRef": "DBI",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.2.3"
@@ -51,7 +51,7 @@
     },
     "R6": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "R6",
         "Title": "Encapsulated Classes with Reference Semantics",
@@ -77,7 +77,7 @@
         "RemoteType": "standard",
         "RemoteRef": "R6",
         "RemotePkgRef": "R6",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "2.6.1"
@@ -85,13 +85,13 @@
     },
     "Rcpp": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "Rcpp",
         "Title": "Seamless R and C++ Integration",
         "Version": "1.1.0",
         "Date": "2025-07-01",
-        "Authors@R": "c(person(\"Dirk\", \"Eddelbuettel\", role = c(\"aut\", \"cre\"), email = \"edd@debian.org\",\n                    comment = c(ORCID = \"0000-0001-6419-907X\")),\n             person(\"Romain\", \"Francois\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0002-2444-4226\")),\n             person(\"JJ\", \"Allaire\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0003-0174-9868\")),\n             person(\"Kevin\", \"Ushey\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0003-2880-7407\")),\n             person(\"Qiang\", \"Kou\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0001-6786-5453\")),\n             person(\"Nathan\", \"Russell\", role = \"aut\"),\n             person(\"I\u00f1aki\", \"Ucar\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0001-6403-5550\")),\n             person(\"Doug\", \"Bates\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0001-8316-9503\")),\n             person(\"John\", \"Chambers\", role = \"aut\"))",
+        "Authors@R": "c(person(\"Dirk\", \"Eddelbuettel\", role = c(\"aut\", \"cre\"), email = \"edd@debian.org\",\n                    comment = c(ORCID = \"0000-0001-6419-907X\")),\n             person(\"Romain\", \"Francois\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0002-2444-4226\")),\n             person(\"JJ\", \"Allaire\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0003-0174-9868\")),\n             person(\"Kevin\", \"Ushey\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0003-2880-7407\")),\n             person(\"Qiang\", \"Kou\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0001-6786-5453\")),\n             person(\"Nathan\", \"Russell\", role = \"aut\"),\n             person(\"Iñaki\", \"Ucar\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0001-6403-5550\")),\n             person(\"Doug\", \"Bates\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0001-8316-9503\")),\n             person(\"John\", \"Chambers\", role = \"aut\"))",
         "Description": "The 'Rcpp' package provides R functions as well as C++ classes which\n offer a seamless integration of R and C++. Many R data types and objects can be\n mapped back and forth to C++ equivalents which facilitates both writing of new\n code as well as easier integration of third-party libraries. Documentation\n about 'Rcpp' is provided by several vignettes included in this package, via the\n 'Rcpp Gallery' site at <https://gallery.rcpp.org>, the paper by Eddelbuettel and\n Francois (2011, <doi:10.18637/jss.v040.i08>), the book by Eddelbuettel (2013,\n <doi:10.1007/978-1-4614-6868-4>) and the paper by Eddelbuettel and Balamuta (2018,\n <doi:10.1080/00031305.2017.1375990>); see 'citation(\"Rcpp\")' for details.",
         "Imports": "methods, utils",
         "Suggests": "tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)",
@@ -103,7 +103,7 @@
         "Encoding": "UTF-8",
         "NeedsCompilation": "yes",
         "Packaged": "2025-07-01 12:58:41 UTC; edd",
-        "Author": "Dirk Eddelbuettel [aut, cre] (ORCID:\n    <https://orcid.org/0000-0001-6419-907X>),\n  Romain Francois [aut] (ORCID: <https://orcid.org/0000-0002-2444-4226>),\n  JJ Allaire [aut] (ORCID: <https://orcid.org/0000-0003-0174-9868>),\n  Kevin Ushey [aut] (ORCID: <https://orcid.org/0000-0003-2880-7407>),\n  Qiang Kou [aut] (ORCID: <https://orcid.org/0000-0001-6786-5453>),\n  Nathan Russell [aut],\n  I\u00f1aki Ucar [aut] (ORCID: <https://orcid.org/0000-0001-6403-5550>),\n  Doug Bates [aut] (ORCID: <https://orcid.org/0000-0001-8316-9503>),\n  John Chambers [aut]",
+        "Author": "Dirk Eddelbuettel [aut, cre] (ORCID:\n    <https://orcid.org/0000-0001-6419-907X>),\n  Romain Francois [aut] (ORCID: <https://orcid.org/0000-0002-2444-4226>),\n  JJ Allaire [aut] (ORCID: <https://orcid.org/0000-0003-0174-9868>),\n  Kevin Ushey [aut] (ORCID: <https://orcid.org/0000-0003-2880-7407>),\n  Qiang Kou [aut] (ORCID: <https://orcid.org/0000-0001-6786-5453>),\n  Nathan Russell [aut],\n  Iñaki Ucar [aut] (ORCID: <https://orcid.org/0000-0001-6403-5550>),\n  Doug Bates [aut] (ORCID: <https://orcid.org/0000-0001-8316-9503>),\n  John Chambers [aut]",
         "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
         "Repository": "RSPM",
         "Date/Publication": "2025-07-02 16:40:02 UTC",
@@ -111,13 +111,45 @@
         "RemoteType": "standard",
         "RemotePkgRef": "Rcpp",
         "RemoteRef": "Rcpp",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteSha": "1.1.0"
+      }
+    },
+    "askpass": {
+      "Source": "CRAN",
+      "Repository": "https://cran.r-project.org",
+      "description": {
+        "Package": "askpass",
+        "Type": "Package",
+        "Title": "Password Entry Utilities for R, Git, and SSH",
+        "Version": "1.2.1",
+        "Authors@R": "person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), \n    email = \"jeroenooms@gmail.com\", comment = c(ORCID = \"0000-0002-4035-0289\"))",
+        "Description": "Cross-platform utilities for prompting the user for credentials or a \n    passphrase, for example to authenticate with a server or read a protected key.\n    Includes native programs for MacOS and Windows, hence no 'tcltk' is required. \n    Password entry can be invoked in two different ways: directly from R via the \n    askpass() function, or indirectly as password-entry back-end for 'ssh-agent' \n    or 'git-credential' via the SSH_ASKPASS and GIT_ASKPASS environment variables.\n    Thereby the user can be prompted for credentials or a passphrase if needed \n    when R calls out to git or ssh.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://r-lib.r-universe.dev/askpass",
+        "BugReports": "https://github.com/r-lib/askpass/issues",
+        "Encoding": "UTF-8",
+        "Imports": "sys (>= 2.1)",
+        "RoxygenNote": "7.2.3",
+        "Suggests": "testthat",
+        "Language": "en-US",
+        "NeedsCompilation": "yes",
+        "Packaged": "2024-10-03 14:12:09 UTC; jeroen",
+        "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>)",
+        "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
+        "Repository": "RSPM",
+        "Date/Publication": "2024-10-04 07:20:03 UTC",
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2025-04-05 03:21:53 UTC; unix",
+        "RemoteType": "standard",
+        "RemotePkgRef": "askpass",
+        "RemoteRef": "askpass",
+        "RemoteRepos": "https://cran.r-project.org",
+        "RemoteSha": "1.2.1"
       }
     },
     "base64enc": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "base64enc",
         "Version": "0.1-3",
@@ -138,18 +170,18 @@
         "RemoteType": "standard",
         "RemotePkgRef": "base64enc",
         "RemoteRef": "base64enc",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteSha": "0.1-3"
       }
     },
     "bit": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "bit",
         "Title": "Classes and Methods for Fast Memory-Efficient Boolean Selections",
         "Version": "4.6.0",
-        "Authors@R": "c(\n    person(\"Michael\", \"Chirico\", email = \"MichaelChirico4@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Jens\", \"Oehlschl\u00e4gel\", role = \"aut\"),\n    person(\"Brian\", \"Ripley\", role = \"ctb\")\n  )",
+        "Authors@R": "c(\n    person(\"Michael\", \"Chirico\", email = \"MichaelChirico4@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Jens\", \"Oehlschlägel\", role = \"aut\"),\n    person(\"Brian\", \"Ripley\", role = \"ctb\")\n  )",
         "Depends": "R (>= 3.4.0)",
         "Suggests": "testthat (>= 3.0.0), roxygen2, knitr, markdown, rmarkdown,\nmicrobenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)",
         "Description": "Provided are classes for boolean and skewed boolean vectors,\n    fast boolean methods, fast unique and non-unique integer sorting,\n    fast set operations on sorted and unsorted sets of integers, and\n    foundations for ff (range index, compression, chunked processing).",
@@ -163,7 +195,7 @@
         "Config/testthat/edition": "3",
         "NeedsCompilation": "yes",
         "Packaged": "2025-03-05 07:18:45 UTC; michael",
-        "Author": "Michael Chirico [aut, cre],\n  Jens Oehlschl\u00e4gel [aut],\n  Brian Ripley [ctb]",
+        "Author": "Michael Chirico [aut, cre],\n  Jens Oehlschlägel [aut],\n  Brian Ripley [ctb]",
         "Maintainer": "Michael Chirico <MichaelChirico4@gmail.com>",
         "Repository": "RSPM",
         "Date/Publication": "2025-03-06 10:50:01 UTC",
@@ -171,7 +203,7 @@
         "RemoteType": "standard",
         "RemoteRef": "bit",
         "RemotePkgRef": "bit",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "4.6.0"
@@ -179,12 +211,12 @@
     },
     "bit64": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "bit64",
         "Title": "A S3 Class for Vectors of 64bit Integers",
         "Version": "4.6.0-1",
-        "Authors@R": "c(\n    person(\"Michael\", \"Chirico\", email = \"michaelchirico4@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Jens\", \"Oehlschl\u00e4gel\", role = \"aut\"),\n    person(\"Leonardo\", \"Silvestri\", role = \"ctb\"),\n    person(\"Ofek\", \"Shilon\", role = \"ctb\")\n  )",
+        "Authors@R": "c(\n    person(\"Michael\", \"Chirico\", email = \"michaelchirico4@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Jens\", \"Oehlschlägel\", role = \"aut\"),\n    person(\"Leonardo\", \"Silvestri\", role = \"ctb\"),\n    person(\"Ofek\", \"Shilon\", role = \"ctb\")\n  )",
         "Depends": "R (>= 3.4.0), bit (>= 4.0.0)",
         "Description": "\n  Package 'bit64' provides serializable S3 atomic 64bit (signed) integers.\n  These are useful for handling database keys and exact counting in +-2^63.\n  WARNING: do not use them as replacement for 32bit integers, integer64 are not\n  supported for subscripting by R-core and they have different semantics when\n  combined with double, e.g. integer64 + double => integer64.\n  Class integer64 can be used in vectors, matrices, arrays and data.frames.\n  Methods are available for coercion from and to logicals, integers, doubles,\n  characters and factors as well as many elementwise and summary functions.\n  Many fast algorithmic operations such as 'match' and 'order' support inter-\n  active data exploration and manipulation and optionally leverage caching.",
         "License": "GPL-2 | GPL-3",
@@ -199,7 +231,7 @@
         "RoxygenNote": "7.3.2",
         "NeedsCompilation": "yes",
         "Packaged": "2025-01-16 14:04:20 UTC; michael",
-        "Author": "Michael Chirico [aut, cre],\n  Jens Oehlschl\u00e4gel [aut],\n  Leonardo Silvestri [ctb],\n  Ofek Shilon [ctb]",
+        "Author": "Michael Chirico [aut, cre],\n  Jens Oehlschlägel [aut],\n  Leonardo Silvestri [ctb],\n  Ofek Shilon [ctb]",
         "Maintainer": "Michael Chirico <michaelchirico4@gmail.com>",
         "Repository": "RSPM",
         "Date/Publication": "2025-01-16 16:00:07 UTC",
@@ -207,7 +239,7 @@
         "RemoteType": "standard",
         "RemoteRef": "bit64",
         "RemotePkgRef": "bit64",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "4.6.0-1"
@@ -215,12 +247,12 @@
     },
     "blob": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "blob",
         "Title": "A Simple S3 Class for Representing Vectors of Binary Data\n('BLOBS')",
         "Version": "1.2.4",
-        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Kirill\", \"M\u00fcller\", , \"kirill@cynkra.com\", role = \"cre\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Kirill\", \"Müller\", , \"kirill@cynkra.com\", role = \"cre\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "R's raw vector is useful for storing a single binary object.\n    What if you want to put a vector of them in a data frame? The 'blob'\n    package provides the blob object, a list of raw vectors, suitable for\n    use as a column in data frame.",
         "License": "MIT + file LICENSE",
         "URL": "https://blob.tidyverse.org, https://github.com/tidyverse/blob",
@@ -234,15 +266,15 @@
         "RoxygenNote": "7.2.3",
         "NeedsCompilation": "no",
         "Packaged": "2023-03-17 09:42:50 UTC; kirill",
-        "Author": "Hadley Wickham [aut],\n  Kirill M\u00fcller [cre],\n  RStudio [cph, fnd]",
-        "Maintainer": "Kirill M\u00fcller <kirill@cynkra.com>",
+        "Author": "Hadley Wickham [aut],\n  Kirill Müller [cre],\n  RStudio [cph, fnd]",
+        "Maintainer": "Kirill Müller <kirill@cynkra.com>",
         "Repository": "RSPM",
         "Date/Publication": "2023-03-17 12:00:06 UTC",
         "Built": "R 4.5.0; ; 2025-04-05 03:27:45 UTC; unix",
         "RemoteType": "standard",
         "RemoteRef": "blob",
         "RemotePkgRef": "blob",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.2.4"
@@ -250,7 +282,7 @@
     },
     "bslib": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "bslib",
         "Title": "Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'",
@@ -282,7 +314,7 @@
         "RemoteType": "standard",
         "RemoteRef": "bslib",
         "RemotePkgRef": "bslib",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.9.0"
@@ -290,7 +322,7 @@
     },
     "cachem": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "cachem",
         "Version": "1.1.0",
@@ -316,7 +348,7 @@
         "RemoteType": "standard",
         "RemoteRef": "cachem",
         "RemotePkgRef": "cachem",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.1.0"
@@ -324,12 +356,12 @@
     },
     "cli": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "cli",
         "Title": "Helpers for Developing Command Line Interfaces",
         "Version": "3.6.5",
-        "Authors@R": "c(\n    person(\"G\u00e1bor\", \"Cs\u00e1rdi\", , \"gabor@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", role = \"ctb\"),\n    person(\"Kirill\", \"M\u00fcller\", role = \"ctb\"),\n    person(\"Salim\", \"Br\u00fcggemann\", , \"salim-b@pm.me\", role = \"ctb\",\n           comment = c(ORCID = \"0000-0002-5329-5987\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"gabor@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", role = \"ctb\"),\n    person(\"Kirill\", \"Müller\", role = \"ctb\"),\n    person(\"Salim\", \"Brüggemann\", , \"salim-b@pm.me\", role = \"ctb\",\n           comment = c(ORCID = \"0000-0002-5329-5987\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "A suite of tools to build attractive command line interfaces\n    ('CLIs'), from semantic elements: headings, lists, alerts, paragraphs,\n    etc. Supports custom themes via a 'CSS'-like language. It also\n    contains a number of lower level 'CLI' elements: rules, boxes, trees,\n    and 'Unicode' symbols with 'ASCII' alternatives. It support ANSI\n    colors and text styles as well.",
         "License": "MIT + file LICENSE",
         "URL": "https://cli.r-lib.org, https://github.com/r-lib/cli",
@@ -343,21 +375,21 @@
         "RoxygenNote": "7.3.2",
         "NeedsCompilation": "yes",
         "Packaged": "2025-04-22 12:00:18 UTC; gaborcsardi",
-        "Author": "G\u00e1bor Cs\u00e1rdi [aut, cre],\n  Hadley Wickham [ctb],\n  Kirill M\u00fcller [ctb],\n  Salim Br\u00fcggemann [ctb] (<https://orcid.org/0000-0002-5329-5987>),\n  Posit Software, PBC [cph, fnd]",
-        "Maintainer": "G\u00e1bor Cs\u00e1rdi <gabor@posit.co>",
+        "Author": "Gábor Csárdi [aut, cre],\n  Hadley Wickham [ctb],\n  Kirill Müller [ctb],\n  Salim Brüggemann [ctb] (<https://orcid.org/0000-0002-5329-5987>),\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Gábor Csárdi <gabor@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2025-04-23 13:50:02 UTC",
         "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2025-04-24 04:31:16 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "cli",
         "RemoteRef": "cli",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteSha": "3.6.5"
       }
     },
     "commonmark": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "commonmark",
         "Type": "Package",
@@ -382,18 +414,52 @@
         "RemoteType": "standard",
         "RemoteRef": "commonmark",
         "RemotePkgRef": "commonmark",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "2.0.0"
       }
     },
+    "curl": {
+      "Source": "CRAN",
+      "Repository": "https://cran.r-project.org",
+      "description": {
+        "Package": "curl",
+        "Type": "Package",
+        "Title": "A Modern and Flexible Web Client for R",
+        "Version": "7.0.0",
+        "Authors@R": "c(\n    person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), email = \"jeroenooms@gmail.com\",\n      comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Hadley\", \"Wickham\", role = \"ctb\"),\n    person(\"Posit Software, PBC\", role = \"cph\"))",
+        "Description": "Bindings to 'libcurl' <https://curl.se/libcurl/> for performing fully\n    configurable HTTP/FTP requests where responses can be processed in memory, on\n    disk, or streaming via the callback or connection interfaces. Some knowledge\n    of 'libcurl' is recommended; for a more-user-friendly web client see the \n    'httr2' package which builds on this package with http specific tools and logic.",
+        "License": "MIT + file LICENSE",
+        "SystemRequirements": "libcurl (>= 7.73): libcurl-devel (rpm) or\nlibcurl4-openssl-dev (deb)",
+        "URL": "https://jeroen.r-universe.dev/curl",
+        "BugReports": "https://github.com/jeroen/curl/issues",
+        "Suggests": "spelling, testthat (>= 1.0.0), knitr, jsonlite, later,\nrmarkdown, httpuv (>= 1.4.4), webutils",
+        "VignetteBuilder": "knitr",
+        "Depends": "R (>= 3.0.0)",
+        "RoxygenNote": "7.3.2",
+        "Encoding": "UTF-8",
+        "Language": "en-US",
+        "NeedsCompilation": "yes",
+        "Packaged": "2025-08-19 10:05:57 UTC; jeroen",
+        "Author": "Jeroen Ooms [aut, cre] (ORCID: <https://orcid.org/0000-0002-4035-0289>),\n  Hadley Wickham [ctb],\n  Posit Software, PBC [cph]",
+        "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
+        "Repository": "RSPM",
+        "Date/Publication": "2025-08-19 22:40:02 UTC",
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2025-08-20 04:51:57 UTC; unix",
+        "RemoteType": "standard",
+        "RemotePkgRef": "curl",
+        "RemoteRef": "curl",
+        "RemoteRepos": "https://cran.r-project.org",
+        "RemoteSha": "7.0.0"
+      }
+    },
     "digest": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "digest",
-        "Authors@R": "c(person(\"Dirk\", \"Eddelbuettel\", role = c(\"aut\", \"cre\"), email = \"edd@debian.org\",\n                    comment = c(ORCID = \"0000-0001-6419-907X\")),\n             person(\"Antoine\", \"Lucas\", role=\"ctb\", comment = c(ORCID = \"0000-0002-8059-9767\")),\n             person(\"Jarek\", \"Tuszynski\", role=\"ctb\"),\n             person(\"Henrik\", \"Bengtsson\", role=\"ctb\", comment = c(ORCID = \"0000-0002-7579-5165\")),\n             person(\"Simon\", \"Urbanek\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2297-1732\")),\n             person(\"Mario\", \"Frasca\", role=\"ctb\"),\n             person(\"Bryan\", \"Lewis\", role=\"ctb\"),\n             person(\"Murray\", \"Stokely\", role=\"ctb\"),\n             person(\"Hannes\", \"Muehleisen\", role=\"ctb\", comment = c(ORCID = \"0000-0001-8552-0029\")),\n             person(\"Duncan\", \"Murdoch\", role=\"ctb\"),\n             person(\"Jim\", \"Hester\", role=\"ctb\", comment = c(ORCID = \"0000-0002-2739-7082\")),\n             person(\"Wush\", \"Wu\", role=\"ctb\", comment = c(ORCID = \"0000-0001-5180-0567\")),\n             person(\"Qiang\", \"Kou\", role=\"ctb\", comment = c(ORCID = \"0000-0001-6786-5453\")),\n             person(\"Thierry\", \"Onkelinx\", role=\"ctb\", comment = c(ORCID = \"0000-0001-8804-4216\")),\n             person(\"Michel\", \"Lang\", role=\"ctb\", comment = c(ORCID = \"0000-0001-9754-0393\")),\n             person(\"Viliam\", \"Simko\", role=\"ctb\"),\n             person(\"Kurt\", \"Hornik\", role=\"ctb\", comment = c(ORCID = \"0000-0003-4198-9911\")),\n             person(\"Radford\", \"Neal\", role=\"ctb\", comment = c(ORCID = \"0000-0002-2473-3407\")),\n             person(\"Kendon\", \"Bell\", role=\"ctb\", comment = c(ORCID = \"0000-0002-9093-8312\")),\n             person(\"Matthew\", \"de Queljoe\", role=\"ctb\"),\n             person(\"Dmitry\", \"Selivanov\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0492-6647\")),\n             person(\"Ion\", \"Suruceanu\", role=\"ctb\", comment = c(ORCID = \"0009-0005-6446-4909\")),\n             person(\"Bill\", \"Denney\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5759-428X\")),\n             person(\"Dirk\", \"Schumacher\", role=\"ctb\"),\n             person(\"Andr\u00e1s\", \"Svraka\", role=\"ctb\", comment = c(ORCID = \"0009-0008-8480-1329\")),\n             person(\"Sergey\", \"Fedorov\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5970-7233\")),\n             person(\"Will\", \"Landau\", role=\"ctb\", comment = c(ORCID = \"0000-0003-1878-3253\")),\n             person(\"Floris\", \"Vanderhaeghe\", role=\"ctb\", comment = c(ORCID = \"0000-0002-6378-6229\")),\n             person(\"Kevin\", \"Tappe\", role=\"ctb\"),\n             person(\"Harris\", \"McGehee\", role=\"ctb\"),\n             person(\"Tim\", \"Mastny\", role=\"ctb\"),\n             person(\"Aaron\", \"Peikert\", role=\"ctb\", comment = c(ORCID = \"0000-0001-7813-818X\")),\n             person(\"Mark\", \"van der Loo\", role=\"ctb\", comment = c(ORCID = \"0000-0002-9807-4686\")),\n             person(\"Chris\", \"Muir\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2555-3878\")),\n             person(\"Moritz\", \"Beller\", role=\"ctb\", comment = c(ORCID = \"0000-0003-4852-0526\")),\n             person(\"Sebastian\", \"Campbell\", role=\"ctb\", comment = c(ORCID = \"0009-0000-5948-4503\")),\n             person(\"Winston\", \"Chang\", role=\"ctb\", comment = c(ORCID = \"0000-0002-1576-2126\")),\n             person(\"Dean\", \"Attali\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5645-3493\")),\n             person(\"Michael\", \"Chirico\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0787-087X\")),\n             person(\"Kevin\", \"Ushey\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2880-7407\")),\n             person(\"Carl\", \"Pearson\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0701-7860\")))",
+        "Authors@R": "c(person(\"Dirk\", \"Eddelbuettel\", role = c(\"aut\", \"cre\"), email = \"edd@debian.org\",\n                    comment = c(ORCID = \"0000-0001-6419-907X\")),\n             person(\"Antoine\", \"Lucas\", role=\"ctb\", comment = c(ORCID = \"0000-0002-8059-9767\")),\n             person(\"Jarek\", \"Tuszynski\", role=\"ctb\"),\n             person(\"Henrik\", \"Bengtsson\", role=\"ctb\", comment = c(ORCID = \"0000-0002-7579-5165\")),\n             person(\"Simon\", \"Urbanek\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2297-1732\")),\n             person(\"Mario\", \"Frasca\", role=\"ctb\"),\n             person(\"Bryan\", \"Lewis\", role=\"ctb\"),\n             person(\"Murray\", \"Stokely\", role=\"ctb\"),\n             person(\"Hannes\", \"Muehleisen\", role=\"ctb\", comment = c(ORCID = \"0000-0001-8552-0029\")),\n             person(\"Duncan\", \"Murdoch\", role=\"ctb\"),\n             person(\"Jim\", \"Hester\", role=\"ctb\", comment = c(ORCID = \"0000-0002-2739-7082\")),\n             person(\"Wush\", \"Wu\", role=\"ctb\", comment = c(ORCID = \"0000-0001-5180-0567\")),\n             person(\"Qiang\", \"Kou\", role=\"ctb\", comment = c(ORCID = \"0000-0001-6786-5453\")),\n             person(\"Thierry\", \"Onkelinx\", role=\"ctb\", comment = c(ORCID = \"0000-0001-8804-4216\")),\n             person(\"Michel\", \"Lang\", role=\"ctb\", comment = c(ORCID = \"0000-0001-9754-0393\")),\n             person(\"Viliam\", \"Simko\", role=\"ctb\"),\n             person(\"Kurt\", \"Hornik\", role=\"ctb\", comment = c(ORCID = \"0000-0003-4198-9911\")),\n             person(\"Radford\", \"Neal\", role=\"ctb\", comment = c(ORCID = \"0000-0002-2473-3407\")),\n             person(\"Kendon\", \"Bell\", role=\"ctb\", comment = c(ORCID = \"0000-0002-9093-8312\")),\n             person(\"Matthew\", \"de Queljoe\", role=\"ctb\"),\n             person(\"Dmitry\", \"Selivanov\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0492-6647\")),\n             person(\"Ion\", \"Suruceanu\", role=\"ctb\", comment = c(ORCID = \"0009-0005-6446-4909\")),\n             person(\"Bill\", \"Denney\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5759-428X\")),\n             person(\"Dirk\", \"Schumacher\", role=\"ctb\"),\n             person(\"András\", \"Svraka\", role=\"ctb\", comment = c(ORCID = \"0009-0008-8480-1329\")),\n             person(\"Sergey\", \"Fedorov\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5970-7233\")),\n             person(\"Will\", \"Landau\", role=\"ctb\", comment = c(ORCID = \"0000-0003-1878-3253\")),\n             person(\"Floris\", \"Vanderhaeghe\", role=\"ctb\", comment = c(ORCID = \"0000-0002-6378-6229\")),\n             person(\"Kevin\", \"Tappe\", role=\"ctb\"),\n             person(\"Harris\", \"McGehee\", role=\"ctb\"),\n             person(\"Tim\", \"Mastny\", role=\"ctb\"),\n             person(\"Aaron\", \"Peikert\", role=\"ctb\", comment = c(ORCID = \"0000-0001-7813-818X\")),\n             person(\"Mark\", \"van der Loo\", role=\"ctb\", comment = c(ORCID = \"0000-0002-9807-4686\")),\n             person(\"Chris\", \"Muir\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2555-3878\")),\n             person(\"Moritz\", \"Beller\", role=\"ctb\", comment = c(ORCID = \"0000-0003-4852-0526\")),\n             person(\"Sebastian\", \"Campbell\", role=\"ctb\", comment = c(ORCID = \"0009-0000-5948-4503\")),\n             person(\"Winston\", \"Chang\", role=\"ctb\", comment = c(ORCID = \"0000-0002-1576-2126\")),\n             person(\"Dean\", \"Attali\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5645-3493\")),\n             person(\"Michael\", \"Chirico\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0787-087X\")),\n             person(\"Kevin\", \"Ushey\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2880-7407\")),\n             person(\"Carl\", \"Pearson\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0701-7860\")))",
         "Version": "0.6.39",
         "Date": "2025-11-19",
         "Title": "Create Compact Hash Digests of R Objects",
@@ -408,7 +474,7 @@
         "Encoding": "UTF-8",
         "NeedsCompilation": "yes",
         "Packaged": "2025-11-19 11:55:09 UTC; edd",
-        "Author": "Dirk Eddelbuettel [aut, cre] (ORCID:\n    <https://orcid.org/0000-0001-6419-907X>),\n  Antoine Lucas [ctb] (ORCID: <https://orcid.org/0000-0002-8059-9767>),\n  Jarek Tuszynski [ctb],\n  Henrik Bengtsson [ctb] (ORCID: <https://orcid.org/0000-0002-7579-5165>),\n  Simon Urbanek [ctb] (ORCID: <https://orcid.org/0000-0003-2297-1732>),\n  Mario Frasca [ctb],\n  Bryan Lewis [ctb],\n  Murray Stokely [ctb],\n  Hannes Muehleisen [ctb] (ORCID:\n    <https://orcid.org/0000-0001-8552-0029>),\n  Duncan Murdoch [ctb],\n  Jim Hester [ctb] (ORCID: <https://orcid.org/0000-0002-2739-7082>),\n  Wush Wu [ctb] (ORCID: <https://orcid.org/0000-0001-5180-0567>),\n  Qiang Kou [ctb] (ORCID: <https://orcid.org/0000-0001-6786-5453>),\n  Thierry Onkelinx [ctb] (ORCID: <https://orcid.org/0000-0001-8804-4216>),\n  Michel Lang [ctb] (ORCID: <https://orcid.org/0000-0001-9754-0393>),\n  Viliam Simko [ctb],\n  Kurt Hornik [ctb] (ORCID: <https://orcid.org/0000-0003-4198-9911>),\n  Radford Neal [ctb] (ORCID: <https://orcid.org/0000-0002-2473-3407>),\n  Kendon Bell [ctb] (ORCID: <https://orcid.org/0000-0002-9093-8312>),\n  Matthew de Queljoe [ctb],\n  Dmitry Selivanov [ctb] (ORCID: <https://orcid.org/0000-0003-0492-6647>),\n  Ion Suruceanu [ctb] (ORCID: <https://orcid.org/0009-0005-6446-4909>),\n  Bill Denney [ctb] (ORCID: <https://orcid.org/0000-0002-5759-428X>),\n  Dirk Schumacher [ctb],\n  Andr\u00e1s Svraka [ctb] (ORCID: <https://orcid.org/0009-0008-8480-1329>),\n  Sergey Fedorov [ctb] (ORCID: <https://orcid.org/0000-0002-5970-7233>),\n  Will Landau [ctb] (ORCID: <https://orcid.org/0000-0003-1878-3253>),\n  Floris Vanderhaeghe [ctb] (ORCID:\n    <https://orcid.org/0000-0002-6378-6229>),\n  Kevin Tappe [ctb],\n  Harris McGehee [ctb],\n  Tim Mastny [ctb],\n  Aaron Peikert [ctb] (ORCID: <https://orcid.org/0000-0001-7813-818X>),\n  Mark van der Loo [ctb] (ORCID: <https://orcid.org/0000-0002-9807-4686>),\n  Chris Muir [ctb] (ORCID: <https://orcid.org/0000-0003-2555-3878>),\n  Moritz Beller [ctb] (ORCID: <https://orcid.org/0000-0003-4852-0526>),\n  Sebastian Campbell [ctb] (ORCID:\n    <https://orcid.org/0009-0000-5948-4503>),\n  Winston Chang [ctb] (ORCID: <https://orcid.org/0000-0002-1576-2126>),\n  Dean Attali [ctb] (ORCID: <https://orcid.org/0000-0002-5645-3493>),\n  Michael Chirico [ctb] (ORCID: <https://orcid.org/0000-0003-0787-087X>),\n  Kevin Ushey [ctb] (ORCID: <https://orcid.org/0000-0003-2880-7407>),\n  Carl Pearson [ctb] (ORCID: <https://orcid.org/0000-0003-0701-7860>)",
+        "Author": "Dirk Eddelbuettel [aut, cre] (ORCID:\n    <https://orcid.org/0000-0001-6419-907X>),\n  Antoine Lucas [ctb] (ORCID: <https://orcid.org/0000-0002-8059-9767>),\n  Jarek Tuszynski [ctb],\n  Henrik Bengtsson [ctb] (ORCID: <https://orcid.org/0000-0002-7579-5165>),\n  Simon Urbanek [ctb] (ORCID: <https://orcid.org/0000-0003-2297-1732>),\n  Mario Frasca [ctb],\n  Bryan Lewis [ctb],\n  Murray Stokely [ctb],\n  Hannes Muehleisen [ctb] (ORCID:\n    <https://orcid.org/0000-0001-8552-0029>),\n  Duncan Murdoch [ctb],\n  Jim Hester [ctb] (ORCID: <https://orcid.org/0000-0002-2739-7082>),\n  Wush Wu [ctb] (ORCID: <https://orcid.org/0000-0001-5180-0567>),\n  Qiang Kou [ctb] (ORCID: <https://orcid.org/0000-0001-6786-5453>),\n  Thierry Onkelinx [ctb] (ORCID: <https://orcid.org/0000-0001-8804-4216>),\n  Michel Lang [ctb] (ORCID: <https://orcid.org/0000-0001-9754-0393>),\n  Viliam Simko [ctb],\n  Kurt Hornik [ctb] (ORCID: <https://orcid.org/0000-0003-4198-9911>),\n  Radford Neal [ctb] (ORCID: <https://orcid.org/0000-0002-2473-3407>),\n  Kendon Bell [ctb] (ORCID: <https://orcid.org/0000-0002-9093-8312>),\n  Matthew de Queljoe [ctb],\n  Dmitry Selivanov [ctb] (ORCID: <https://orcid.org/0000-0003-0492-6647>),\n  Ion Suruceanu [ctb] (ORCID: <https://orcid.org/0009-0005-6446-4909>),\n  Bill Denney [ctb] (ORCID: <https://orcid.org/0000-0002-5759-428X>),\n  Dirk Schumacher [ctb],\n  András Svraka [ctb] (ORCID: <https://orcid.org/0009-0008-8480-1329>),\n  Sergey Fedorov [ctb] (ORCID: <https://orcid.org/0000-0002-5970-7233>),\n  Will Landau [ctb] (ORCID: <https://orcid.org/0000-0003-1878-3253>),\n  Floris Vanderhaeghe [ctb] (ORCID:\n    <https://orcid.org/0000-0002-6378-6229>),\n  Kevin Tappe [ctb],\n  Harris McGehee [ctb],\n  Tim Mastny [ctb],\n  Aaron Peikert [ctb] (ORCID: <https://orcid.org/0000-0001-7813-818X>),\n  Mark van der Loo [ctb] (ORCID: <https://orcid.org/0000-0002-9807-4686>),\n  Chris Muir [ctb] (ORCID: <https://orcid.org/0000-0003-2555-3878>),\n  Moritz Beller [ctb] (ORCID: <https://orcid.org/0000-0003-4852-0526>),\n  Sebastian Campbell [ctb] (ORCID:\n    <https://orcid.org/0009-0000-5948-4503>),\n  Winston Chang [ctb] (ORCID: <https://orcid.org/0000-0002-1576-2126>),\n  Dean Attali [ctb] (ORCID: <https://orcid.org/0000-0002-5645-3493>),\n  Michael Chirico [ctb] (ORCID: <https://orcid.org/0000-0003-0787-087X>),\n  Kevin Ushey [ctb] (ORCID: <https://orcid.org/0000-0003-2880-7407>),\n  Carl Pearson [ctb] (ORCID: <https://orcid.org/0000-0003-0701-7860>)",
         "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
         "Repository": "RSPM",
         "Date/Publication": "2025-11-19 13:20:08 UTC",
@@ -416,13 +482,13 @@
         "RemoteType": "standard",
         "RemotePkgRef": "digest",
         "RemoteRef": "digest",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteSha": "0.6.39"
       }
     },
     "fastmap": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "fastmap",
         "Title": "Fast Data Structures",
@@ -445,7 +511,7 @@
         "RemoteType": "standard",
         "RemoteRef": "fastmap",
         "RemotePkgRef": "fastmap",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.2.0"
@@ -453,7 +519,7 @@
     },
     "fontawesome": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "fontawesome",
@@ -481,7 +547,7 @@
         "RemoteType": "standard",
         "RemoteRef": "fontawesome",
         "RemotePkgRef": "fontawesome",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.5.3"
@@ -489,12 +555,12 @@
     },
     "fs": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "fs",
         "Title": "Cross-Platform File System Operations Based on 'libuv'",
         "Version": "1.6.6",
-        "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"),\n    person(\"G\u00e1bor\", \"Cs\u00e1rdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"libuv project contributors\", role = \"cph\",\n           comment = \"libuv library\"),\n    person(\"Joyent, Inc. and other Node contributors\", role = \"cph\",\n           comment = \"libuv library\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"),\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"libuv project contributors\", role = \"cph\",\n           comment = \"libuv library\"),\n    person(\"Joyent, Inc. and other Node contributors\", role = \"cph\",\n           comment = \"libuv library\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "A cross-platform interface to file system operations, built\n    on top of the 'libuv' C library.",
         "License": "MIT + file LICENSE",
         "URL": "https://fs.r-lib.org, https://github.com/r-lib/fs",
@@ -513,15 +579,15 @@
         "SystemRequirements": "GNU make",
         "NeedsCompilation": "yes",
         "Packaged": "2025-04-12 09:39:13 UTC; gaborcsardi",
-        "Author": "Jim Hester [aut],\n  Hadley Wickham [aut],\n  G\u00e1bor Cs\u00e1rdi [aut, cre],\n  libuv project contributors [cph] (libuv library),\n  Joyent, Inc. and other Node contributors [cph] (libuv library),\n  Posit Software, PBC [cph, fnd]",
-        "Maintainer": "G\u00e1bor Cs\u00e1rdi <csardi.gabor@gmail.com>",
+        "Author": "Jim Hester [aut],\n  Hadley Wickham [aut],\n  Gábor Csárdi [aut, cre],\n  libuv project contributors [cph] (libuv library),\n  Joyent, Inc. and other Node contributors [cph] (libuv library),\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
         "Repository": "RSPM",
         "Date/Publication": "2025-04-12 10:40:02 UTC",
         "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2025-04-14 17:02:52 UTC; unix",
         "RemoteType": "standard",
         "RemoteRef": "fs",
         "RemotePkgRef": "fs",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.6.6"
@@ -529,7 +595,7 @@
     },
     "glue": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "glue",
         "Title": "Interpreted String Literals",
@@ -558,19 +624,19 @@
         "RemoteType": "standard",
         "RemotePkgRef": "glue",
         "RemoteRef": "glue",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteSha": "1.8.0"
       }
     },
     "hms": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "hms",
         "Title": "Pretty Time of Day",
         "Date": "2025-10-11",
         "Version": "1.1.4",
-        "Authors@R": "c(\n    person(\"Kirill\", \"M\u00fcller\", , \"kirill@cynkra.com\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-1416-3412\")),\n    person(\"R Consortium\", role = \"fnd\"),\n    person(\"Posit Software, PBC\", role = \"fnd\",\n           comment = c(ROR = \"03wc8by49\"))\n  )",
+        "Authors@R": "c(\n    person(\"Kirill\", \"Müller\", , \"kirill@cynkra.com\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-1416-3412\")),\n    person(\"R Consortium\", role = \"fnd\"),\n    person(\"Posit Software, PBC\", role = \"fnd\",\n           comment = c(ROR = \"03wc8by49\"))\n  )",
         "Description": "Implements an S3 class for storing and formatting time-of-day\n    values, based on the 'difftime' class.",
         "License": "MIT + file LICENSE",
         "URL": "https://hms.tidyverse.org/, https://github.com/tidyverse/hms",
@@ -583,15 +649,15 @@
         "RoxygenNote": "7.3.3.9000",
         "NeedsCompilation": "no",
         "Packaged": "2025-10-16 19:10:16 UTC; kirill",
-        "Author": "Kirill M\u00fcller [aut, cre] (ORCID:\n    <https://orcid.org/0000-0002-1416-3412>),\n  R Consortium [fnd],\n  Posit Software, PBC [fnd] (ROR: <https://ror.org/03wc8by49>)",
-        "Maintainer": "Kirill M\u00fcller <kirill@cynkra.com>",
+        "Author": "Kirill Müller [aut, cre] (ORCID:\n    <https://orcid.org/0000-0002-1416-3412>),\n  R Consortium [fnd],\n  Posit Software, PBC [fnd] (ROR: <https://ror.org/03wc8by49>)",
+        "Maintainer": "Kirill Müller <kirill@cynkra.com>",
         "Repository": "RSPM",
         "Date/Publication": "2025-10-17 05:10:11 UTC",
         "Built": "R 4.5.0; ; 2025-10-18 04:26:27 UTC; unix",
         "RemoteType": "standard",
         "RemoteRef": "hms",
         "RemotePkgRef": "hms",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.1.4"
@@ -599,7 +665,7 @@
     },
     "htmltools": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "htmltools",
@@ -629,7 +695,7 @@
         "RemoteType": "standard",
         "RemoteRef": "htmltools",
         "RemotePkgRef": "htmltools",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.5.9"
@@ -637,7 +703,7 @@
     },
     "httpuv": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "httpuv",
@@ -666,15 +732,50 @@
         "RemoteType": "standard",
         "RemoteRef": "httpuv",
         "RemotePkgRef": "httpuv",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.6.16"
       }
     },
+    "httr": {
+      "Source": "CRAN",
+      "Repository": "https://cran.r-project.org",
+      "description": {
+        "Package": "httr",
+        "Title": "Tools for Working with URLs and HTTP",
+        "Version": "1.4.7",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Posit, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "Useful tools for working with HTTP organised by HTTP verbs\n    (GET(), POST(), etc). Configuration functions make it easy to control\n    additional request components (authenticate(), add_headers() and so\n    on).",
+        "License": "MIT + file LICENSE",
+        "URL": "https://httr.r-lib.org/, https://github.com/r-lib/httr",
+        "BugReports": "https://github.com/r-lib/httr/issues",
+        "Depends": "R (>= 3.5)",
+        "Imports": "curl (>= 5.0.2), jsonlite, mime, openssl (>= 0.8), R6",
+        "Suggests": "covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat\n(>= 0.8.0), xml2",
+        "VignetteBuilder": "knitr",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.2.3",
+        "NeedsCompilation": "no",
+        "Packaged": "2023-08-15 02:56:56 UTC; hadleywickham",
+        "Author": "Hadley Wickham [aut, cre],\n  Posit, PBC [cph, fnd]",
+        "Maintainer": "Hadley Wickham <hadley@posit.co>",
+        "Repository": "RSPM",
+        "Date/Publication": "2023-08-15 09:00:02 UTC",
+        "Built": "R 4.5.0; ; 2025-04-05 03:32:48 UTC; unix",
+        "RemoteType": "standard",
+        "RemoteRef": "httr",
+        "RemotePkgRef": "httr",
+        "RemoteRepos": "https://cran.r-project.org",
+        "RemoteReposName": "CRAN",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "1.4.7"
+      }
+    },
     "jquerylib": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "jquerylib",
         "Title": "Obtain 'jQuery' as an HTML Dependency Object",
@@ -697,7 +798,7 @@
         "RemoteType": "standard",
         "RemoteRef": "jquerylib",
         "RemotePkgRef": "jquerylib",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.1.4"
@@ -705,7 +806,7 @@
     },
     "jsonlite": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "jsonlite",
         "Version": "2.0.0",
@@ -730,13 +831,13 @@
         "RemoteType": "standard",
         "RemotePkgRef": "jsonlite",
         "RemoteRef": "jsonlite",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteSha": "2.0.0"
       }
     },
     "later": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "later",
@@ -766,7 +867,7 @@
         "RemoteType": "standard",
         "RemoteRef": "later",
         "RemotePkgRef": "later",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.4.4"
@@ -774,7 +875,7 @@
     },
     "lifecycle": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "lifecycle",
         "Title": "Manage the Life Cycle of your Package Functions",
@@ -802,13 +903,13 @@
         "RemoteType": "standard",
         "RemotePkgRef": "lifecycle",
         "RemoteRef": "lifecycle",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteSha": "1.0.4"
       }
     },
     "magrittr": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "magrittr",
@@ -836,7 +937,7 @@
         "RemoteType": "standard",
         "RemoteRef": "magrittr",
         "RemotePkgRef": "magrittr",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "2.0.4"
@@ -844,12 +945,12 @@
     },
     "memoise": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "memoise",
         "Title": "'Memoisation' of Functions",
         "Version": "2.0.1",
-        "Authors@R": "\n    c(person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = \"aut\",\n             email = \"hadley@rstudio.com\"),\n      person(given = \"Jim\",\n             family = \"Hester\",\n             role = \"aut\"),\n      person(given = \"Winston\",\n             family = \"Chang\",\n             role = c(\"aut\", \"cre\"),\n             email = \"winston@rstudio.com\"),\n      person(given = \"Kirill\",\n             family = \"M\u00fcller\",\n             role = \"aut\",\n             email = \"krlmlr+r@mailbox.org\"),\n      person(given = \"Daniel\",\n             family = \"Cook\",\n             role = \"aut\",\n             email = \"danielecook@gmail.com\"),\n      person(given = \"Mark\",\n             family = \"Edmondson\",\n             role = \"ctb\",\n             email = \"r@sunholo.com\"))",
+        "Authors@R": "\n    c(person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = \"aut\",\n             email = \"hadley@rstudio.com\"),\n      person(given = \"Jim\",\n             family = \"Hester\",\n             role = \"aut\"),\n      person(given = \"Winston\",\n             family = \"Chang\",\n             role = c(\"aut\", \"cre\"),\n             email = \"winston@rstudio.com\"),\n      person(given = \"Kirill\",\n             family = \"Müller\",\n             role = \"aut\",\n             email = \"krlmlr+r@mailbox.org\"),\n      person(given = \"Daniel\",\n             family = \"Cook\",\n             role = \"aut\",\n             email = \"danielecook@gmail.com\"),\n      person(given = \"Mark\",\n             family = \"Edmondson\",\n             role = \"ctb\",\n             email = \"r@sunholo.com\"))",
         "Description": "Cache the results of a function so that when you\n    call it again with the same arguments it returns the previously computed\n    value.",
         "License": "MIT + file LICENSE",
         "URL": "https://memoise.r-lib.org, https://github.com/r-lib/memoise",
@@ -860,7 +961,7 @@
         "RoxygenNote": "7.1.2",
         "NeedsCompilation": "no",
         "Packaged": "2021-11-24 21:24:50 UTC; jhester",
-        "Author": "Hadley Wickham [aut],\n  Jim Hester [aut],\n  Winston Chang [aut, cre],\n  Kirill M\u00fcller [aut],\n  Daniel Cook [aut],\n  Mark Edmondson [ctb]",
+        "Author": "Hadley Wickham [aut],\n  Jim Hester [aut],\n  Winston Chang [aut, cre],\n  Kirill Müller [aut],\n  Daniel Cook [aut],\n  Mark Edmondson [ctb]",
         "Maintainer": "Winston Chang <winston@rstudio.com>",
         "Repository": "RSPM",
         "Date/Publication": "2021-11-26 16:11:10 UTC",
@@ -868,7 +969,7 @@
         "RemoteType": "standard",
         "RemoteRef": "memoise",
         "RemotePkgRef": "memoise",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "2.0.1"
@@ -876,7 +977,7 @@
     },
     "mime": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "mime",
         "Type": "Package",
@@ -900,7 +1001,7 @@
         "RemoteType": "standard",
         "RemoteRef": "mime",
         "RemotePkgRef": "mime",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.13"
@@ -908,7 +1009,7 @@
     },
     "odbc": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "odbc",
         "Title": "Connect to ODBC Compatible Databases (using the DBI Interface)",
@@ -941,20 +1042,53 @@
         "RemoteType": "standard",
         "RemoteRef": "odbc",
         "RemotePkgRef": "odbc",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.6.4.1"
       }
     },
+    "openssl": {
+      "Source": "CRAN",
+      "Repository": "https://cran.r-project.org",
+      "description": {
+        "Package": "openssl",
+        "Type": "Package",
+        "Title": "Toolkit for Encryption, Signatures and Certificates Based on\nOpenSSL",
+        "Version": "2.3.4",
+        "Authors@R": "c(person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), email = \"jeroenooms@gmail.com\",\n    comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Oliver\", \"Keyes\", role = \"ctb\"))",
+        "Description": "Bindings to OpenSSL libssl and libcrypto, plus custom SSH key parsers.\n    Supports RSA, DSA and EC curves P-256, P-384, P-521, and curve25519. Cryptographic\n    signatures can either be created and verified manually or via x509 certificates. \n    AES can be used in cbc, ctr or gcm mode for symmetric encryption; RSA for asymmetric\n    (public key) encryption or EC for Diffie Hellman. High-level envelope functions \n    combine RSA and AES for encrypting arbitrary sized data. Other utilities include key\n    generators, hash functions (md5, sha1, sha256, etc), base64 encoder, a secure random\n    number generator, and 'bignum' math methods for manually performing crypto \n    calculations on large multibyte integers.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://jeroen.r-universe.dev/openssl",
+        "BugReports": "https://github.com/jeroen/openssl/issues",
+        "SystemRequirements": "OpenSSL >= 1.0.2",
+        "VignetteBuilder": "knitr",
+        "Imports": "askpass",
+        "Suggests": "curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,\njsonlite, jose, sodium",
+        "RoxygenNote": "7.3.2",
+        "Encoding": "UTF-8",
+        "NeedsCompilation": "yes",
+        "Packaged": "2025-09-30 09:14:32 UTC; jeroen",
+        "Author": "Jeroen Ooms [aut, cre] (ORCID: <https://orcid.org/0000-0002-4035-0289>),\n  Oliver Keyes [ctb]",
+        "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
+        "Repository": "RSPM",
+        "Date/Publication": "2025-09-30 09:50:02 UTC",
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2025-10-01 04:39:36 UTC; unix",
+        "RemoteType": "standard",
+        "RemotePkgRef": "openssl",
+        "RemoteRef": "openssl",
+        "RemoteRepos": "https://cran.r-project.org",
+        "RemoteSha": "2.3.4"
+      }
+    },
     "otel": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "otel",
         "Title": "OpenTelemetry R API",
         "Version": "0.2.0",
-        "Authors@R": "\n    person(\"G\u00e1bor\", \"Cs\u00e1rdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\"))",
+        "Authors@R": "\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\"))",
         "Description": "High-quality, ubiquitous, and portable telemetry to enable\n    effective observability. OpenTelemetry is a collection of tools,\n    APIs, and SDKs used to instrument, generate, collect, and export\n    telemetry data (metrics, logs, and traces) for analysis in order to\n    understand your software's performance and behavior.\n    This package implements the OpenTelemetry API:\n    <https://opentelemetry.io/docs/specs/otel/>.\n    Use this package as a dependency if you want to instrument your R\n    package for OpenTelemetry.",
         "License": "MIT + file LICENSE",
         "Encoding": "UTF-8",
@@ -968,15 +1102,15 @@
         "BugReports": "https://github.com/r-lib/otel/issues",
         "NeedsCompilation": "no",
         "Packaged": "2025-08-29 12:46:28 UTC; gaborcsardi",
-        "Author": "G\u00e1bor Cs\u00e1rdi [aut, cre]",
-        "Maintainer": "G\u00e1bor Cs\u00e1rdi <csardi.gabor@gmail.com>",
+        "Author": "Gábor Csárdi [aut, cre]",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
         "Repository": "RSPM",
         "Date/Publication": "2025-08-29 13:30:07 UTC",
         "Built": "R 4.5.0; ; 2025-08-30 04:37:01 UTC; unix",
         "RemoteType": "standard",
         "RemoteRef": "otel",
         "RemotePkgRef": "otel",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.2.0"
@@ -984,13 +1118,13 @@
     },
     "pkgconfig": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "pkgconfig",
         "Title": "Private Configuration for 'R' Packages",
         "Version": "2.0.3",
-        "Author": "G\u00e1bor Cs\u00e1rdi",
-        "Maintainer": "G\u00e1bor Cs\u00e1rdi <csardi.gabor@gmail.com>",
+        "Author": "Gábor Csárdi",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
         "Description": "Set configuration options on a per-package basis.\n    Options set by a given package only apply to that package,\n    other packages are unaffected.",
         "License": "MIT + file LICENSE",
         "LazyData": "true",
@@ -1007,7 +1141,7 @@
         "RemoteType": "standard",
         "RemoteRef": "pkgconfig",
         "RemotePkgRef": "pkgconfig",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "2.0.3"
@@ -1015,7 +1149,7 @@
     },
     "promises": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "promises",
@@ -1046,7 +1180,7 @@
         "RemoteType": "standard",
         "RemoteRef": "promises",
         "RemotePkgRef": "promises",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.5.0"
@@ -1054,7 +1188,7 @@
     },
     "rappdirs": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "rappdirs",
@@ -1081,7 +1215,7 @@
         "RemoteType": "standard",
         "RemoteRef": "rappdirs",
         "RemotePkgRef": "rappdirs",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.3.3"
@@ -1089,7 +1223,7 @@
     },
     "rlang": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "rlang",
         "Version": "1.1.6",
@@ -1120,13 +1254,13 @@
         "RemoteType": "standard",
         "RemotePkgRef": "rlang",
         "RemoteRef": "rlang",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteSha": "1.1.6"
       }
     },
     "sass": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "sass",
@@ -1154,7 +1288,7 @@
         "RemoteType": "standard",
         "RemoteRef": "sass",
         "RemotePkgRef": "sass",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.4.10"
@@ -1162,7 +1296,7 @@
     },
     "shiny": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "shiny",
@@ -1191,7 +1325,7 @@
         "RemoteType": "standard",
         "RemoteRef": "shiny",
         "RemotePkgRef": "shiny",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.12.1"
@@ -1199,7 +1333,7 @@
     },
     "sourcetools": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "sourcetools",
         "Type": "Package",
@@ -1222,15 +1356,46 @@
         "RemoteType": "standard",
         "RemoteRef": "sourcetools",
         "RemotePkgRef": "sourcetools",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.1.7-1"
       }
     },
+    "sys": {
+      "Source": "CRAN",
+      "Repository": "https://cran.r-project.org",
+      "description": {
+        "Package": "sys",
+        "Type": "Package",
+        "Title": "Powerful and Reliable Tools for Running System Commands in R",
+        "Version": "3.4.3",
+        "Authors@R": "c(person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), \n      email = \"jeroenooms@gmail.com\", comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = \"ctb\"))",
+        "Description": "Drop-in replacements for the base system2() function with fine control\n    and consistent behavior across platforms. Supports clean interruption, timeout, \n    background tasks, and streaming STDIN / STDOUT / STDERR over binary or text \n    connections. Arguments on Windows automatically get encoded and quoted to work \n    on different locales.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://jeroen.r-universe.dev/sys",
+        "BugReports": "https://github.com/jeroen/sys/issues",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.1",
+        "Suggests": "unix (>= 1.4), spelling, testthat",
+        "Language": "en-US",
+        "NeedsCompilation": "yes",
+        "Packaged": "2024-10-03 14:13:17 UTC; jeroen",
+        "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Gábor Csárdi [ctb]",
+        "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
+        "Repository": "RSPM",
+        "Date/Publication": "2024-10-04 09:40:02 UTC",
+        "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2025-04-05 03:18:38 UTC; unix",
+        "RemoteType": "standard",
+        "RemotePkgRef": "sys",
+        "RemoteRef": "sys",
+        "RemoteRepos": "https://cran.r-project.org",
+        "RemoteSha": "3.4.3"
+      }
+    },
     "vctrs": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "vctrs",
         "Title": "Vector Helpers",
@@ -1259,7 +1424,7 @@
         "RemoteType": "standard",
         "RemoteRef": "vctrs",
         "RemotePkgRef": "vctrs",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.6.5"
@@ -1267,12 +1432,12 @@
     },
     "withr": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "withr",
         "Title": "Run Code 'With' Temporarily Modified Global State",
         "Version": "3.0.2",
-        "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Kirill\", \"M\u00fcller\", , \"krlmlr+r@mailbox.org\", role = \"aut\"),\n    person(\"Kevin\", \"Ushey\", , \"kevinushey@gmail.com\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"),\n    person(\"Winston\", \"Chang\", role = \"aut\"),\n    person(\"Jennifer\", \"Bryan\", role = \"ctb\"),\n    person(\"Richard\", \"Cotton\", role = \"ctb\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Kirill\", \"Müller\", , \"krlmlr+r@mailbox.org\", role = \"aut\"),\n    person(\"Kevin\", \"Ushey\", , \"kevinushey@gmail.com\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"),\n    person(\"Winston\", \"Chang\", role = \"aut\"),\n    person(\"Jennifer\", \"Bryan\", role = \"ctb\"),\n    person(\"Richard\", \"Cotton\", role = \"ctb\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "A set of functions to run code 'with' safely and temporarily\n    modified global state. Many of these functions were originally a part\n    of the 'devtools' package, this provides a simple package with limited\n    dependencies to provide access to these functions.",
         "License": "MIT + file LICENSE",
         "URL": "https://withr.r-lib.org, https://github.com/r-lib/withr#readme",
@@ -1288,7 +1453,7 @@
         "Collate": "'aaa.R' 'collate.R' 'connection.R' 'db.R' 'defer-exit.R'\n'standalone-defer.R' 'defer.R' 'devices.R' 'local_.R' 'with_.R'\n'dir.R' 'env.R' 'file.R' 'language.R' 'libpaths.R' 'locale.R'\n'makevars.R' 'namespace.R' 'options.R' 'par.R' 'path.R' 'rng.R'\n'seed.R' 'wrap.R' 'sink.R' 'tempfile.R' 'timezone.R'\n'torture.R' 'utils.R' 'with.R'",
         "NeedsCompilation": "no",
         "Packaged": "2024-10-28 10:58:18 UTC; lionel",
-        "Author": "Jim Hester [aut],\n  Lionel Henry [aut, cre],\n  Kirill M\u00fcller [aut],\n  Kevin Ushey [aut],\n  Hadley Wickham [aut],\n  Winston Chang [aut],\n  Jennifer Bryan [ctb],\n  Richard Cotton [ctb],\n  Posit Software, PBC [cph, fnd]",
+        "Author": "Jim Hester [aut],\n  Lionel Henry [aut, cre],\n  Kirill Müller [aut],\n  Kevin Ushey [aut],\n  Hadley Wickham [aut],\n  Winston Chang [aut],\n  Jennifer Bryan [ctb],\n  Richard Cotton [ctb],\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2024-10-28 13:30:02 UTC",
@@ -1296,7 +1461,7 @@
         "RemoteType": "standard",
         "RemoteRef": "withr",
         "RemotePkgRef": "withr",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "3.0.2"
@@ -1304,7 +1469,7 @@
     },
     "xtable": {
       "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "Repository": "https://cran.r-project.org",
       "description": {
         "Package": "xtable",
         "Version": "1.8-4",
@@ -1329,55 +1494,16 @@
         "RemoteType": "standard",
         "RemoteRef": "xtable",
         "RemotePkgRef": "xtable",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
+        "RemoteRepos": "https://cran.r-project.org",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.8-4"
-      }
-    },
-    "httr": {
-      "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "description": {
-        "Package": "httr",
-        "Version": "1.4.7",
-        "RemoteType": "standard",
-        "RemoteRef": "httr",
-        "RemotePkgRef": "httr",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemoteSha": "1.4.7"
-      }
-    },
-    "curl": {
-      "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "description": {
-        "Package": "curl",
-        "Version": "5.2.3",
-        "RemoteType": "standard",
-        "RemoteRef": "curl",
-        "RemotePkgRef": "curl",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemoteSha": "5.2.3"
-      }
-    },
-    "openssl": {
-      "Source": "CRAN",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "description": {
-        "Package": "openssl",
-        "Version": "2.2.2",
-        "RemoteType": "standard",
-        "RemoteRef": "openssl",
-        "RemotePkgRef": "openssl",
-        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
-        "RemoteSha": "2.2.2"
       }
     }
   },
   "files": {
     "test.R": {
-      "checksum": "61de39b396cd8f52f04e0563895d0990"
+      "checksum": "be94862781b5f692b418e689026d89bf"
     }
   },
   "users": null
