@@ -1347,6 +1347,32 @@
         "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
         "RemoteSha": "1.4.7"
       }
+    },
+    "curl": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "curl",
+        "Version": "5.2.3",
+        "RemoteType": "standard",
+        "RemoteRef": "curl",
+        "RemotePkgRef": "curl",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteSha": "5.2.3"
+      }
+    },
+    "openssl": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "openssl",
+        "Version": "2.2.2",
+        "RemoteType": "standard",
+        "RemoteRef": "openssl",
+        "RemotePkgRef": "openssl",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteSha": "2.2.2"
+      }
     }
   },
   "files": {
